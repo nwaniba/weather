@@ -19,7 +19,7 @@ function weatherForecast() {
             let descript = data.weather[0].descrition;
             let humid = data.main.humidity;
 
-            let printInterest = `<p> Temperature: ${temp}C </p> <br> Description: ${descript} </p> <br> Humidity: ${humid}C </p>`;
+            let printInterest = `<p> Temperature: ${temp}°C </p> <br> Description: ${descript} </p> <br> Humidity: ${humid}°C </p>`;
 
             printInfo.innerHTML = printInterest
         })
